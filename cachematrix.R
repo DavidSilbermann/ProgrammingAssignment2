@@ -1,4 +1,4 @@
-## Functions for creating a special "matrix" object, computing it inverse and caching it 
+## Functions for creating a special "matrix" object, computing its inverse and caching it 
 ## 
 
 
@@ -33,8 +33,8 @@ makeCacheMatrix <- function(x = matrix()) {
         setmatrix <- function(matrix) m <<- matrix
         getmatrix <- function() m
         list(set = set, get = get,
-             setmatrix = setmean,
-             getmatrix = getmean)
+             setmatrix = setmatrix,
+             getmatrix = getmatrix)
 }
 
 #####
