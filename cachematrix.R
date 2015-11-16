@@ -1,23 +1,6 @@
 ## Functions for creating a special "matrix" object, computing its inverse and caching it 
 ## 
 
-
-## Copying the makeVector example here to use as a template
-#makeVector <- function(x = numeric()) {
-#        m <- NULL
-#        set <- function(y) {
-#                x <<- y
-#                m <<- NULL
-#        }
-#        get <- function() x
-#        setmean <- function(mean) m <<- mean
-#        getmean <- function() m
-#        list(set = set, get = get,
-#             setmean = setmean,
-#             getmean = getmean)
-#}
-
-
 #####
 ##
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
